@@ -1,0 +1,11 @@
+# Keep the app private to this computer
+[server]
+address = "localhost"          # not reachable from other machines on the network
+headless = true
+maxUploadSize = 200            # MB
+
+[browser]
+gatherUsageStats = false       # no telemetry sent to Streamlit
+
+[client]
+toolbarMode = "minimal"        # hides the "Deploy" button so the app can't be published by accident
